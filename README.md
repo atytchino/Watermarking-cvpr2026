@@ -51,7 +51,7 @@ TRAIN_ROOT_PAIRS = [
     (AFHQ_TRAIN, AFHQ_VAL),
     (DATASET2_TRAIN, DATASET2_VAL,),
     (None, None), ]
- # add DATASET2_TRAIN an DATASET2_VAL parameters for an additional dataset you would like to train on more than one dataset at the same time. You can use a maximum of 3 datasets of the same color-ness
+add DATASET2_TRAIN an DATASET2_VAL parameters for an additional dataset you would like to train on more than one dataset at the same time. You can use a maximum of 3 datasets of the same color-ness
 
 SAVE_ROOT = Path(r"E:\Universal_ae_ver2_AFHQ") # destination folder for the .pth file
 SAVE_ROOT.mkdir(parents=True, exist_ok=True)

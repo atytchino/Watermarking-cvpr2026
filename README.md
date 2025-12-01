@@ -81,18 +81,31 @@ However, you may run the encoder from command line with the following parameters
 Key arguments:
 
 --train_dir :: root for training images (ImageFolder).
+
 --val_dir :: root for validation images.
+
 --save_dir :: directory for checkpoints and metrics.
+
 --img_size :: image resolution (set to 512).
+
 --epochs :: number of epochs (e.g. 35).
+
 --batch_size :: batch size (e.g. 32).
+
 --lr :: learning rate (default 1e-4).
+
 --aug :: augmentation strength: none | light | medium | strong.
+
 --devices :: optional CUDA_VISIBLE_DEVICES string.
+
 --num_workers :: dataloader workers.
+
 --log_every :: logging frequency.
+
 --amp :: AMP mode: none | fp16 | bf16.
+
 --classes_txt :: optional text file with a fixed class list to enforce consistent ordering.
+
 
 The typical command to start an autoencoder with custom parameters would be:
 
